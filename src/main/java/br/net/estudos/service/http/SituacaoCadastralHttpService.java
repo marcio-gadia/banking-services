@@ -2,6 +2,7 @@ package br.net.estudos.service.http;
 
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 
+import br.net.estudos.domain.http.AgenciaHttp;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 
