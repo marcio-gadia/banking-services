@@ -1,4 +1,4 @@
-package br.net.estudos.service.http;
+package br.net.estudos.domain.http;
 
 public enum SituacaoCadastral {
     ATIVO, INATIVO
