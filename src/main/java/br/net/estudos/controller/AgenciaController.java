@@ -29,14 +29,14 @@ public class AgenciaController {
 
    @GET
    @Path("{id}")
-   public RestResponse<Agencia> buscarPorId(Integer id){
+   public RestResponse<Agencia> buscarPorId(Long id){
      Agencia agencia = this.agenciaService.BuscarPorId(id);
      return RestResponse.ok(agencia);
    }
 
    @DELETE
    @Path("{id}")
-   public RestResponse<Void> deletarPorId(Integer id){
+   public RestResponse<Void> deletarPorId(Long id){
      this.agenciaService.DeletarPorId(id);
      return RestResponse.ok();
    }
