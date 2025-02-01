@@ -1,4 +1,4 @@
-package br.net.estudos.service.http;
+package br.net.estudos.service;
 
 import br.net.estudos.domain.Agencia;
 import br.net.estudos.exceptions.AgenciaNaoAtivaOuNaoEncontradaException;
